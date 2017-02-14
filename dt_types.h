@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2016-11-22 10:24:48
+ * @date 2017-02-13 13:30:51
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -41,6 +41,7 @@ enum dt_types {
 	dt_active = 0x1F,
 	dt_state = 0x20,
 	dt_address = 0x21,
+	dt_resource = 0x22,
 	dt_event = 0x25, // An event id of some sort
 	dt_constraint_spatial = 0x26,
 	dt_constraint_temporal = 0x27,
