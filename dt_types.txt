@@ -38,7 +38,7 @@
 0021,dt_address,0x%04x
 0022,dt_resource
 0023,-
-0024,-
+0024,dt_spontaneous # The data is from a spontaneous event
 0025,dt_event # An event id of some sort
 0026,dt_constraint_spatial
 0027,dt_constraint_temporal
