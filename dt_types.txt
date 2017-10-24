@@ -97,8 +97,8 @@
 0059,dt_age_ms
 005A,dt_period_s
 005B,dt_period_ms
-005C,-
-005D,-
+005C,dt_freeze_s
+005D,dt_freeze_ms
 005E,dt_delay_s
 005F,dt_delay_ms
 #-------------------------------------------------------------------------------
@@ -108,7 +108,7 @@
 0063,-
 0064,-
 0065,-
-0066,-
+0066,dt_temporal_window
 0067,dt_temporal_interval
 0068,dt_beginning
 0069,-
@@ -181,8 +181,8 @@
 00A8,dt_utc_month
 00A9,dt_utc_year
 00AA,dt_utc_yday
-00AB,dt_utc_time_s
-00AC,-
+00AB,dt_utc_time_s # time of day as seconds from 00:00:00
+00AC,dt_utc_time_min # time of day as minutes from 00:00
 00AD,dt_utc_tm_offset
 00AE,dt_offset_s
 00AF,dt_time_passed_s

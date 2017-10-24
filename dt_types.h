@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2017-09-29 16:41:20
+ * @date 2017-10-11 16:32:21
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -87,11 +87,14 @@ enum dt_types {
 	dt_age_ms = 0x59,
 	dt_period_s = 0x5A,
 	dt_period_ms = 0x5B,
+	dt_freeze_s = 0x5C,
+	dt_freeze_ms = 0x5D,
 	dt_delay_s = 0x5E,
 	dt_delay_ms = 0x5F,
 	dt_timeout_s = 0x60,
 	dt_timeout_ms = 0x61,
 	dt_timeout_never = 0x62,
+	dt_temporal_window = 0x66,
 	dt_temporal_interval = 0x67,
 	dt_beginning = 0x68,
 	dt_acc = 0x6B,
@@ -134,7 +137,8 @@ enum dt_types {
 	dt_utc_month = 0xA8,
 	dt_utc_year = 0xA9,
 	dt_utc_yday = 0xAA,
-	dt_utc_time_s = 0xAB,
+	dt_utc_time_s = 0xAB, // time of day as seconds from 00:00:00
+	dt_utc_time_min = 0xAC, // time of day as minutes from 00:00
 	dt_utc_tm_offset = 0xAD,
 	dt_offset_s = 0xAE,
 	dt_time_passed_s = 0xAF,
