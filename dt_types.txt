@@ -37,7 +37,7 @@
 0020,dt_state
 0021,dt_address,0x%04x
 0022,dt_resource
-0023,-
+0023,dt_status
 0024,dt_spontaneous # The data is from a spontaneous event
 0025,dt_event # An event id of some sort
 0026,dt_constraint_spatial
@@ -142,7 +142,7 @@
 0083,dt_streams
 0084,dt_requirements
 0085,dt_slot
-0086,-
+0086,dt_frame
 0087,-
 0088,-
 0089,-
