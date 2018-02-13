@@ -215,7 +215,7 @@
 00C9,dt_acoustic
 00CA,dt_angle_deg
 00CB,dt_people_count
-00CC,-
+00CC,dt_color_temperature
 00CD,-
 00CE,-
 00CF,dt_output_pct

@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2018-01-11 09:11:18
+ * @date 2018-02-08 12:58:33
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -163,6 +163,7 @@ enum dt_types {
 	dt_acoustic = 0xC9,
 	dt_angle_deg = 0xCA,
 	dt_people_count = 0xCB,
+	dt_color_temperature = 0xCC,
 	dt_output_pct = 0xCF,
 	dt_producer = 0xD0,
 	dt_consumer = 0xD1,
