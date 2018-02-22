@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2018-02-08 12:58:33
+ * @date 2018-02-22 11:22:45
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -112,6 +112,7 @@ enum dt_types {
 	dt_notEqual = 0x76,
 	dt_at_most = 0x77,
 	dt_at_least = 0x78,
+	dt_hysteresis = 0x79,
 	dt_all = 0x7E,
 	dt_present = 0x7F,
 	dt_middleware_id = 0x80,

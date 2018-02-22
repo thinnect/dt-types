@@ -128,7 +128,7 @@
 0076,dt_notEqual
 0077,dt_at_most
 0078,dt_at_least
-0079,
+0079,dt_hysteresis
 007A,-
 007B,-
 007C,-
