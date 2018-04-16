@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2018-02-22 11:22:45
+ * @date 2018-04-16 09:56:32
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -201,6 +201,15 @@ enum dt_types {
 	dt_count_out = 0x115,
 	dt_movement = 0x116,
 	dt_movement_delta = 0x117,
+	dt_button = 0x120,
+	dt_button_pressed = 0x121,
+	dt_button_released = 0x122,
+	dt_switch = 0x123,
+	dt_switch_closed = 0x124,
+	dt_switch_open = 0x125,
+	dt_relay = 0x126,
+	dt_relay_closed = 0x127,
+	dt_relay_open = 0x128,
 	dt_timeR = 0xAAA0,
 	dt_timeAbs = 0xAAA1,
 	dt_intTime = 0xAAA2,
