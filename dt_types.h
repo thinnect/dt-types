@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2018-04-16 09:56:32
+ * @date 2018-06-03 14:14:24
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -171,6 +171,8 @@ enum dt_types {
 	dt_provider = 0xD2,
 	dt_client = 0xD3,
 	dt_evaluator = 0xD4,
+	dt_relative_humidity_pct = 0xDC,
+	dt_atmospheric_pressure_Pa = 0xDD,
 	dt_ambient_temperature_C = 0xDE,
 	dt_ambient_temperature_F = 0xDF,
 	dt_power_W = 0xE0,

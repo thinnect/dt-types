@@ -232,8 +232,8 @@
 00D9,-
 00DA,-
 00DB,-
-00DC,-
-00DD,-
+00DC,dt_relative_humidity_pct
+00DD,dt_atmospheric_pressure_Pa
 00DE,dt_ambient_temperature_C
 00DF,dt_ambient_temperature_F
 #-------------------------------------------------------------------------------
