@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2018-08-29 17:38:50
+ * @date 2018-09-05 16:31:53
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -171,9 +171,9 @@ enum dt_types {
 	dt_provider = 0xD2,
 	dt_client = 0xD3,
 	dt_evaluator = 0xD4,
-	dt_particles_pm1_0_mg_m3 = 0xD8,
-	dt_particles_pm2_5_mg_m3 = 0xD9,
-	dt_particles_pm10_mg_m3 = 0xDA,
+	dt_particles_pm1_0_ug_m3 = 0xD8,
+	dt_particles_pm2_5_ug_m3 = 0xD9,
+	dt_particles_pm10_ug_m3 = 0xDA,
 	dt_sound_level_dB = 0xDB,
 	dt_relative_humidity_pct = 0xDC,
 	dt_atmospheric_pressure_Pa = 0xDD,

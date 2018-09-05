@@ -228,9 +228,9 @@
 00D5,-
 00D6,-
 00D7,-
-00D8,dt_particles_pm1_0_mg_m3
-00D9,dt_particles_pm2_5_mg_m3
-00DA,dt_particles_pm10_mg_m3
+00D8,dt_particles_pm1_0_ug_m3
+00D9,dt_particles_pm2_5_ug_m3
+00DA,dt_particles_pm10_ug_m3
 00DB,dt_sound_level_dB
 00DC,dt_relative_humidity_pct
 00DD,dt_atmospheric_pressure_Pa
