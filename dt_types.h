@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2018-09-05 16:31:53
+ * @date 2019-03-22 13:53:58
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -181,6 +181,7 @@ enum dt_types {
 	dt_surface_temperature_C = 0xDF,
 	dt_power_W = 0xE0,
 	dt_energy_Wh = 0xE1,
+	dt_external_temperature_C = 0xE2,
 	dt_raw = 0xEE,
 	dt_adc_raw = 0xEF,
 	dt_orientation = 0xF0,
