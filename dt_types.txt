@@ -144,7 +144,7 @@
 0085,dt_slot
 0086,dt_frame
 0087,dt_window
-0088,-
+0088,dt_ack
 0089,-
 008A,-
 008B,-
