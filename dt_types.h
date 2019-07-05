@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2019-05-20 11:15:29
+ * @date 2019-07-05 11:06:09
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -184,6 +184,7 @@ enum dt_types {
 	dt_power_W = 0xE0,
 	dt_energy_Wh = 0xE1,
 	dt_external_temperature_C = 0xE2,
+	dt_current_A = 0xE3,
 	dt_raw = 0xEE,
 	dt_adc_raw = 0xEF,
 	dt_orientation = 0xF0,
@@ -210,6 +211,7 @@ enum dt_types {
 	dt_count_out = 0x115,
 	dt_movement = 0x116,
 	dt_movement_delta = 0x117,
+	dt_speed_kmh = 0x118,
 	dt_button = 0x120,
 	dt_button_pressed = 0x121,
 	dt_button_released = 0x122,
