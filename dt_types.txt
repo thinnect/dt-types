@@ -207,8 +207,8 @@
 00C1,dt_sum
 00C2,dt_average
 00C3,-
-00C4,-
-00C5,-
+00C4,dt_sensor
+00C5,dt_algorithm
 00C6,dt_object
 00C7,dt_threat
 00C8,dt_magnetic

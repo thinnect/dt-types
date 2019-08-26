@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2019-07-05 11:06:09
+ * @date 2019-08-26 11:23:36
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -160,6 +160,8 @@ enum dt_types {
 	dt_distance_to_time_function = 0xC0,
 	dt_sum = 0xC1,
 	dt_average = 0xC2,
+	dt_sensor = 0xC4,
+	dt_algorithm = 0xC5,
 	dt_object = 0xC6,
 	dt_threat = 0xC7,
 	dt_magnetic = 0xC8,
