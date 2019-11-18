@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2019-11-13 18:45:53
+ * @date 2019-11-18 11:00:04
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
