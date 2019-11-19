@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2019-11-18 11:00:04
+ * @date 2019-11-19 13:36:50
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -125,6 +125,7 @@ enum dt_types {
 	dt_window = 0x87,
 	dt_ack = 0x88,
 	dt_beacon = 0x89,
+	dt_alert = 0x8A,
 	dt_production_duration = 0x8E,
 	dt_production_start = 0x8F,
 	dt_setup = 0x98,

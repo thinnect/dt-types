@@ -146,7 +146,7 @@
 0087,dt_window
 0088,dt_ack
 0089,dt_beacon
-008A,-
+008A,dt_alert
 008B,-
 008C,-
 008D,-
