@@ -147,7 +147,7 @@
 0088,dt_ack
 0089,dt_beacon
 008A,dt_alert
-008B,-
+008B,dt_shock
 008C,-
 008D,-
 008E,dt_production_duration
@@ -413,8 +413,8 @@ AAD0,dt_algo_averaging
 AAD1,dt_algo_threshold
 AAD2,dt_algo_min_alert
 AAD3,dt_algo_max_alert
-AAD4,-
-AAD5,
+AAD4,dt_algo_shock
+AAD5,dt_algo_beacon
 AAD6,
 AAD7,
 AAD8,

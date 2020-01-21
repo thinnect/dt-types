@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2020-01-03 10:09:47
+ * @date 2020-01-21 13:14:20
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -126,6 +126,7 @@ enum dt_types {
 	dt_ack = 0x88,
 	dt_beacon = 0x89,
 	dt_alert = 0x8A,
+	dt_shock = 0x8B,
 	dt_production_duration = 0x8E,
 	dt_production_start = 0x8F,
 	dt_setup = 0x98,
@@ -247,6 +248,8 @@ enum dt_types {
 	dt_algo_threshold = 0xAAD1,
 	dt_algo_min_alert = 0xAAD2,
 	dt_algo_max_alert = 0xAAD3,
+	dt_algo_shock = 0xAAD4,
+	dt_algo_beacon = 0xAAD5,
 	dt_threshold = 0xAAE0,
 	dt_threshold_direction = 0xAAE1,
 	dt_deadband = 0xAAE2,
