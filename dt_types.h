@@ -2,8 +2,8 @@
  * Automatically generated dt_types.h
  *
  * @brief dt_types enums
- * @author raido
- * @date 2020-01-21 13:14:20
+ * @author tarmo
+ * @date 2020-02-04 16:52:51
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -95,6 +95,8 @@ enum dt_types {
 	dt_timeout_s = 0x60,
 	dt_timeout_ms = 0x61,
 	dt_timeout_never = 0x62,
+	dt_backoff_s = 0x63,
+	dt_backoff_ms = 0x64,
 	dt_temporal_window = 0x66,
 	dt_temporal_interval = 0x67,
 	dt_beginning = 0x68,
