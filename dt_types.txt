@@ -105,8 +105,8 @@
 0060,dt_timeout_s
 0061,dt_timeout_ms
 0062,dt_timeout_never
-0063,-
-0064,-
+0063,dt_backoff_s
+0064,dt_backoff_ms
 0065,-
 0066,dt_temporal_window
 0067,dt_temporal_interval
