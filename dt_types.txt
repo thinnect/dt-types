@@ -344,8 +344,8 @@
 0142,dt_cpu_voltage_V
 0143,dt_cpu_temperature_C
 0144,dt_battery_temperature_C
-0145,-
-0146,-
+0145,dt_tx_packets
+0146,dt_tx_bytes
 0147,-
 0148,-
 0149,-

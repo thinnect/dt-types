@@ -2,8 +2,8 @@
  * Automatically generated dt_types.h
  *
  * @brief dt_types enums
- * @author tarmo
- * @date 2020-02-04 16:52:51
+ * @author raido
+ * @date 2020-02-20 12:03:26
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -238,6 +238,8 @@ enum dt_types {
 	dt_cpu_voltage_V = 0x142,
 	dt_cpu_temperature_C = 0x143,
 	dt_battery_temperature_C = 0x144,
+	dt_tx_packets = 0x145,
+	dt_tx_bytes = 0x146,
 	dt_timeR = 0xAAA0,
 	dt_timeAbs = 0xAAA1,
 	dt_intTime = 0xAAA2,
