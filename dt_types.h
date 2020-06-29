@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2020-02-20 12:03:26
+ * @date 2020-06-29 21:12:20
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -174,6 +174,7 @@ enum dt_types {
 	dt_angle_deg = 0xCA,
 	dt_people_count = 0xCB,
 	dt_color_temperature = 0xCC,
+	dt_vehicle_count = 0xCD,
 	dt_output_pct = 0xCF,
 	dt_producer = 0xD0,
 	dt_consumer = 0xD1,

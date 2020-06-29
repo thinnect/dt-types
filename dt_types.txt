@@ -216,7 +216,7 @@
 00CA,dt_angle_deg
 00CB,dt_people_count
 00CC,dt_color_temperature
-00CD,-
+00CD,dt_vehicle_count
 00CE,-
 00CF,dt_output_pct
 #-------------------------------------------------------------------------------
