@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2020-06-29 21:12:20
+ * @date 2020-07-20 14:59:24
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -241,6 +241,7 @@ enum dt_types {
 	dt_battery_temperature_C = 0x144,
 	dt_tx_packets = 0x145,
 	dt_tx_bytes = 0x146,
+	dt_sensor_sleep_time_s = 0x147,
 	dt_timeR = 0xAAA0,
 	dt_timeAbs = 0xAAA1,
 	dt_intTime = 0xAAA2,
