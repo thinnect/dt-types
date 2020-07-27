@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2020-07-24 15:25:36
+ * @date 2020-07-27 13:32:34
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -236,6 +236,8 @@ enum dt_types {
 	dt_nh3_ppm = 0x134,
 	dt_ch4_ppm = 0x135,
 	dt_o2_ppm = 0x136,
+	dt_o3_ppm = 0x137,
+	dt_h2s_ppm = 0x138,
 	dt_cpu_sleep_time_s = 0x140,
 	dt_radio_sleep_time_s = 0x141,
 	dt_cpu_voltage_V = 0x142,
@@ -244,6 +246,15 @@ enum dt_types {
 	dt_tx_packets = 0x145,
 	dt_tx_bytes = 0x146,
 	dt_sensor_sleep_time_s = 0x147,
+	dt_co_pct = 0x150,
+	dt_co2_pct = 0x151,
+	dt_no_pct = 0x152,
+	dt_no2_pct = 0x153,
+	dt_nh3_pct = 0x154,
+	dt_ch4_pct = 0x155,
+	dt_o2_pct = 0x156,
+	dt_o3_pct = 0x157,
+	dt_h2s_pct = 0x158,
 	dt_timeR = 0xAAA0,
 	dt_timeAbs = 0xAAA1,
 	dt_intTime = 0xAAA2,
