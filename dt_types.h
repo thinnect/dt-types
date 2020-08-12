@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2020-07-27 13:32:34
+ * @date 2020-08-12 00:01:32
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -246,6 +246,7 @@ enum dt_types {
 	dt_tx_packets = 0x145,
 	dt_tx_bytes = 0x146,
 	dt_sensor_sleep_time_s = 0x147,
+	dt_flash_sleep_time_s = 0x148,
 	dt_co_pct = 0x150,
 	dt_co2_pct = 0x151,
 	dt_no_pct = 0x152,

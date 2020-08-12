@@ -347,7 +347,7 @@
 0145,dt_tx_packets
 0146,dt_tx_bytes
 0147,dt_sensor_sleep_time_s
-0148,-
+0148,dt_flash_sleep_time_s
 0149,-
 014A,-
 014B,-
