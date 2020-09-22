@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2020-08-12 00:01:32
+ * @date 2020-09-22 12:54:58
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -131,10 +131,12 @@ enum dt_types {
 	dt_shock = 0x8B,
 	dt_production_duration = 0x8E,
 	dt_production_start = 0x8F,
+	dt_settings = 0x97,
 	dt_setup = 0x98,
 	dt_debug = 0x99,
 	dt_error = 0x9A,
 	dt_errors = 0x9B,
+	dt_light_control_error = 0x9C,
 	dt_weekdays = 0x9F,
 	dt_utc_tm = 0xA0,
 	dt_utc_hourminsec = 0xA1,
@@ -261,6 +263,8 @@ enum dt_types {
 	dt_intTime = 0xAAA2,
 	dt_absTime = 0xAAA3,
 	dt_power_on_time_s = 0xAAB0,
+	dt_ramp_up_ms = 0xAAB1,
+	dt_ramp_down_ms = 0xAAB2,
 	dt_hours = 0xAAC0,
 	dt_minutes = 0xAAC1,
 	dt_seconds = 0xAAC2,

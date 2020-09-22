@@ -160,12 +160,12 @@
 0094,-
 0095,-
 0096,-
-0097,-
+0097,dt_settings
 0098,dt_setup
 0099,dt_debug
 009A,dt_error
 009B,dt_errors
-009C,-
+009C,dt_light_control_error
 009D,-
 009E,-
 009F,dt_weekdays
@@ -393,8 +393,8 @@ AAAE,-
 AAAF,-
 #-------------------------------------------------------------------------------
 AAB0,dt_power_on_time_s
-AAB1,-
-AAB2,-
+AAB1,dt_ramp_up_ms
+AAB2,dt_ramp_down_ms
 AAB3,-
 AAB4,-
 AAB5,-
