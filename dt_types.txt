@@ -111,8 +111,8 @@
 0066,dt_temporal_window
 0067,dt_temporal_interval
 0068,dt_beginning
-0069,-
-006A,-
+0069,dt_min
+006A,dt_max
 006B,dt_acc
 006C,dt_div
 006D,dt_mul
@@ -129,7 +129,7 @@
 0077,dt_at_most
 0078,dt_at_least
 0079,dt_hysteresis
-007A,-
+007A,dt_dynamic
 007B,-
 007C,-
 007D,-
@@ -193,7 +193,7 @@
 00B4,-
 00B5,-
 00B6,-
-00B7,-
+00B7,dt_blink
 00B8,-
 00B9,dt_timestamp_utc
 00BA,dt_timestamp_local_ms
@@ -297,7 +297,7 @@
 0116,dt_movement
 0117,dt_movement_delta
 0118,dt_speed_kmh
-0119,-
+0119,dt_illuminance
 011A,-
 011B,-
 011C,-

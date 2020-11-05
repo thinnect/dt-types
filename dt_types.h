@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2020-09-22 12:54:58
+ * @date 2020-11-05 22:08:36
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -100,6 +100,8 @@ enum dt_types {
 	dt_temporal_window = 0x66,
 	dt_temporal_interval = 0x67,
 	dt_beginning = 0x68,
+	dt_min = 0x69,
+	dt_max = 0x6A,
 	dt_acc = 0x6B,
 	dt_div = 0x6C,
 	dt_mul = 0x6D,
@@ -115,6 +117,7 @@ enum dt_types {
 	dt_at_most = 0x77,
 	dt_at_least = 0x78,
 	dt_hysteresis = 0x79,
+	dt_dynamic = 0x7A,
 	dt_all = 0x7E,
 	dt_present = 0x7F,
 	dt_middleware_id = 0x80,
@@ -157,6 +160,7 @@ enum dt_types {
 	dt_time_passed_ms = 0xB1,
 	dt_latest = 0xB2,
 	dt_current_location = 0xB3,
+	dt_blink = 0xB7,
 	dt_timestamp_utc = 0xB9,
 	dt_timestamp_local_ms = 0xBA,
 	dt_timestamp_local_s = 0xBB,
@@ -222,6 +226,7 @@ enum dt_types {
 	dt_movement = 0x116,
 	dt_movement_delta = 0x117,
 	dt_speed_kmh = 0x118,
+	dt_illuminance = 0x119,
 	dt_button = 0x120,
 	dt_button_pressed = 0x121,
 	dt_button_released = 0x122,
