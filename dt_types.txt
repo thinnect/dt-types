@@ -3,7 +3,7 @@
 0000,dt_none
 0001,dt_packet
 0002,-
-0003,dt_array,dt_types
+0003,dt_array
 0004,dt_value
 0005,dt_subscription
 0006,dt_subscriptions
