@@ -159,7 +159,7 @@
 0093,-
 0094,-
 0095,-
-0096,-
+0096,dt_parallel
 0097,dt_settings
 0098,dt_setup
 0099,dt_debug
@@ -241,7 +241,7 @@
 00E1,dt_energy_Wh
 00E2,dt_external_temperature_C
 00E3,dt_current_A
-00E4,-
+00E4,dt_average_current_A
 00E5,-
 00E6,-
 00E7,-

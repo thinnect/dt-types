@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2020-11-30 15:45:43
+ * @date 2021-02-10 12:39:04
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -134,6 +134,7 @@ enum dt_types {
 	dt_shock = 0x8B,
 	dt_production_duration = 0x8E,
 	dt_production_start = 0x8F,
+	dt_parallel = 0x96,
 	dt_settings = 0x97,
 	dt_setup = 0x98,
 	dt_debug = 0x99,
@@ -199,6 +200,7 @@ enum dt_types {
 	dt_energy_Wh = 0xE1,
 	dt_external_temperature_C = 0xE2,
 	dt_current_A = 0xE3,
+	dt_average_current_A = 0xE4,
 	dt_raw = 0xEE,
 	dt_adc_raw = 0xEF,
 	dt_orientation = 0xF0,
