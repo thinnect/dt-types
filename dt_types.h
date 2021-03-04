@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2021-02-10 12:39:04
+ * @date 2021-03-03 17:27:34
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -118,6 +118,7 @@ enum dt_types {
 	dt_at_least = 0x78,
 	dt_hysteresis = 0x79,
 	dt_dynamic = 0x7A,
+	dt_offset = 0x7B, // Generic +- offset value
 	dt_all = 0x7E,
 	dt_present = 0x7F,
 	dt_middleware_id = 0x80,
@@ -156,7 +157,7 @@ enum dt_types {
 	dt_utc_time_s = 0xAB, // time of day as seconds from 00:00:00
 	dt_utc_time_min = 0xAC, // time of day as minutes from 00:00
 	dt_utc_tm_offset = 0xAD,
-	dt_offset_s = 0xAE,
+	dt_offset_s = 0xAE, // Time offset in seconds
 	dt_time_passed_s = 0xAF,
 	dt_time_passed_ms = 0xB1,
 	dt_latest = 0xB2,
