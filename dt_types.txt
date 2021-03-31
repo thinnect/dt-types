@@ -242,8 +242,8 @@
 00E2,dt_external_temperature_C
 00E3,dt_current_A
 00E4,dt_average_current_A
-00E5,-
-00E6,-
+00E5,dt_total_current_mAh
+00E6,dt_total_energy_mWh
 00E7,-
 00E8,-
 00E9,-
