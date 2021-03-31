@@ -2,8 +2,8 @@
  * Automatically generated dt_types.h
  *
  * @brief dt_types enums
- * @author raido
- * @date 2021-03-03 17:27:34
+ * @author lempspc
+ * @date 2021-03-31 13:12:38
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -202,6 +202,8 @@ enum dt_types {
 	dt_external_temperature_C = 0xE2,
 	dt_current_A = 0xE3,
 	dt_average_current_A = 0xE4,
+	dt_total_energy_mAh = 0xE5,
+	dt_total_energy_mWh = 0xE6,
 	dt_raw = 0xEE,
 	dt_adc_raw = 0xEF,
 	dt_orientation = 0xF0,
