@@ -244,8 +244,8 @@
 00E4,dt_average_current_A
 00E5,dt_total_energy_mAh
 00E6,dt_total_energy_mWh
-00E7,-
-00E8,-
+00E7,dt_total_energy_kAh
+00E8,dt_total_energy_kWh
 00E9,-
 00EA,-
 00EB,-

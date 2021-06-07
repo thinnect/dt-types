@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author lempspc
- * @date 2021-03-31 13:12:38
+ * @date 2021-06-07 09:28:33
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -204,6 +204,8 @@ enum dt_types {
 	dt_average_current_A = 0xE4,
 	dt_total_energy_mAh = 0xE5,
 	dt_total_energy_mWh = 0xE6,
+	dt_total_energy_kAh = 0xE7,
+	dt_total_energy_kWh = 0xE8,
 	dt_raw = 0xEE,
 	dt_adc_raw = 0xEF,
 	dt_orientation = 0xF0,
