@@ -217,7 +217,7 @@
 00CB,dt_people_count
 00CC,dt_color_temperature
 00CD,dt_vehicle_count
-00CE,-
+00CE,dt_rgbw
 00CF,dt_output_pct
 #-------------------------------------------------------------------------------
 00D0,dt_producer,0x%04x

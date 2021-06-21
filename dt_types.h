@@ -2,8 +2,8 @@
  * Automatically generated dt_types.h
  *
  * @brief dt_types enums
- * @author lempspc
- * @date 2021-06-07 09:28:33
+ * @author raido
+ * @date 2021-06-21 13:02:43
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -183,6 +183,7 @@ enum dt_types {
 	dt_people_count = 0xCB,
 	dt_color_temperature = 0xCC,
 	dt_vehicle_count = 0xCD,
+	dt_rgbw = 0xCE,
 	dt_output_pct = 0xCF,
 	dt_producer = 0xD0,
 	dt_consumer = 0xD1,
