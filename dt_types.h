@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author raido
- * @date 2021-06-21 13:02:43
+ * @date 2021-10-25 13:34:11
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -271,6 +271,16 @@ enum dt_types {
 	dt_o2_pct = 0x156,
 	dt_o3_pct = 0x157,
 	dt_h2s_pct = 0x158,
+	dt_silence_pct = 0x160,
+	dt_unknown_noise_pct = 0x161,
+	dt_traffic_noise_pct = 0x162,
+	dt_industrial_noise_pct = 0x163,
+	dt_aircraft_noise_pct = 0x164,
+	dt_human_noise_pct = 0x165,
+	dt_bus_count = 0x170,
+	dt_truck_count = 0x171,
+	dt_passenger_car_count = 0x172,
+	dt_unknown_vehicle_count = 0x173,
 	dt_timeR = 0xAAA0,
 	dt_timeAbs = 0xAAA1,
 	dt_intTime = 0xAAA2,
