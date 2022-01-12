@@ -2,8 +2,8 @@
  * Automatically generated dt_types.h
  *
  * @brief dt_types enums
- * @author raido
- * @date 2021-10-25 13:34:11
+ * @author german
+ * @date 2022-01-11 11:32:37
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -277,10 +277,13 @@ enum dt_types {
 	dt_industrial_noise_pct = 0x163,
 	dt_aircraft_noise_pct = 0x164,
 	dt_human_noise_pct = 0x165,
-	dt_bus_count = 0x170,
-	dt_truck_count = 0x171,
-	dt_passenger_car_count = 0x172,
-	dt_unknown_vehicle_count = 0x173,
+	dt_bus_appr_count = 0x170,
+	dt_bus_leav_count = 0x171,
+	dt_van_appr_count = 0x172,
+	dt_van_leav_count = 0x173,
+	dt_car_appr_count = 0x174,
+	dt_car_leav_count = 0x175,
+	dt_unknown_vehicle_count = 0x176,
 	dt_timeR = 0xAAA0,
 	dt_timeAbs = 0xAAA1,
 	dt_intTime = 0xAAA2,
