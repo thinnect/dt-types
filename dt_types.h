@@ -3,7 +3,7 @@
  *
  * @brief dt_types enums
  * @author german
- * @date 2022-01-11 11:32:37
+ * @date 2022-01-26 10:30:06
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -190,6 +190,7 @@ enum dt_types {
 	dt_provider = 0xD2,
 	dt_client = 0xD3,
 	dt_evaluator = 0xD4,
+	dt_ph_level = 0xD7,
 	dt_particles_pm1_0_ug_m3 = 0xD8,
 	dt_particles_pm2_5_ug_m3 = 0xD9,
 	dt_particles_pm10_ug_m3 = 0xDA,
@@ -244,6 +245,7 @@ enum dt_types {
 	dt_relay = 0x126,
 	dt_relay_closed = 0x127,
 	dt_relay_open = 0x128,
+	dt_lock_status = 0x129,
 	dt_co_ppm = 0x130,
 	dt_co2_ppm = 0x131,
 	dt_no_ppm = 0x132,

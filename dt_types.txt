@@ -227,7 +227,7 @@
 00D4,dt_evaluator,0x%04x
 00D5,-
 00D6,-
-00D7,-
+00D7,dt_ph_level
 00D8,dt_particles_pm1_0_ug_m3
 00D9,dt_particles_pm2_5_ug_m3
 00DA,dt_particles_pm10_ug_m3
@@ -314,7 +314,7 @@
 0126,dt_relay
 0127,dt_relay_closed
 0128,dt_relay_open
-0129,-
+0129,dt_lock_status
 012A,-
 012B,-
 012C,-
