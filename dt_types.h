@@ -2,8 +2,8 @@
  * Automatically generated dt_types.h
  *
  * @brief dt_types enums
- * @author german
- * @date 2022-01-26 10:30:06
+ * @author raido
+ * @date 2025-04-21 21:24:04
  */
 #ifndef DT_TYPES_H_
 #define DT_TYPES_H_
@@ -173,6 +173,7 @@ enum dt_types {
 	dt_distance_to_time_function = 0xC0,
 	dt_sum = 0xC1,
 	dt_average = 0xC2,
+	dt_group = 0xC3,
 	dt_sensor = 0xC4,
 	dt_algorithm = 0xC5,
 	dt_object = 0xC6,

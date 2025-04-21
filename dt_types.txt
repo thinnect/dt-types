@@ -206,7 +206,7 @@
 00C0,dt_distance_to_time_function
 00C1,dt_sum
 00C2,dt_average
-00C3,-
+00C3,dt_group
 00C4,dt_sensor
 00C5,dt_algorithm
 00C6,dt_object

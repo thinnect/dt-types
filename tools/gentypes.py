@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """gentypes.py: MoteXML header generator."""
 import re
 import time
